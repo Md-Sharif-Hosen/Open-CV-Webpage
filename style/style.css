@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(38, 34, 34);
+}
+
+.navbar {
+    border: 1px solid red;
+    width: 992px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.navbar .logo {
+    border: 1px solid red;
+    display: inline-block;
+    width: 130px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.523);
+
+}
+
+.navbar .logo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.navbar .navmenu {
+    border: 1px solid green;
+    flex: 1;
+}
+
+.navbar .menubar {
+    border: 1px solid;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.navbar .menubar ul {
+    margin: 0px;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+}
+.navbar .menubar ul.active{
+    display: block;
+}
+.navbar .menubar ul li {
+    list-style-type: none;
+
+    /* border: 1px solid yellow; */
+    text-align: right;
+
+}
+
+.navbar .menubar ul li a {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.navbar .menubar ul li a span {
+    /* border: 1px solid; */
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.navbar .menubar ul li a i {
+    /* border: 1px solid red; */
+    background-color: green;
+    font-size: 10px;
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.navbar .menubar ul li a i.first_i {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.navbar .menubar ul li a i.last_i {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.navbar .navmenu .btn {
+    position: absolute;
+    right: 10px;
+}

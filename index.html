@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenCV</title>
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.0-web/css/all.min.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
-    <nav>
+    <nav class="navbar">
         <div class="logo">
-            <img src="" alt="">
+            <img src="./image/logo.png" alt="logo">
         </div>
+        <div class="navmenu" >
+            <div class="btn">
+                 <button onclick="menubar_ul.classList.toggle('active')"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div  class="menubar">
+                <ul id="menubar_ul">
+                    <li><a onclick="menubar_ul.classList.toggle('active')" href=""><i class="fa-solid fa-xmark first_i"></i></a></li>
+                    <li> <a href="#"><span>home</span><i class="fa-solid fa-house-user " ></i></a></li>
+                    <li> <a href="#"><span>Resume</span><i class="fa-solid fa-user"></i></a></li>
+                    <li> <a href="#"><span>portfolio</span><i class="fa-regular fa-id-card"></i></a></li>
+                    <li> <a href="#"><span>services</span><i class="fa-solid fa-gear"></i></a></li>
+                    <li> <a href="#"><span>Testimonial</span><i class="fa-solid fa-comment-dollar"></i></a></li>
+                    <li> <a href="#"><span>contact</span><i class="fa-solid fa-message last_i"></i></a></li>
+
+                </ul>
+            </div>
+           
+        </div>
+
+
     </nav>
 </body>
+
 </html>
